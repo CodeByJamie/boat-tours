@@ -11,16 +11,18 @@ const HeaderLink = ({ name }: { name: string }) => {
 		<div
 			onMouseOver={() => setHover(true)}
 			onMouseOut={() => setHover(false)}
-			className={`relative ${
-				pathname === "/" ? "text-blue-950" : ""
-			} text-lg outline-none`}
+			className={`relative
+				pathname === "/" ? "text-blue-" : ""
+			text-lg outline-none`}
 		>
 			<Link href={`/${name === "Home" ? "/" : name.toLowerCase()}`}>{name}</Link>
 			<motion.div
 				initial={false}
 				animate={{ width: hover ? "100%" : "0%" }}
 				transition={{ duration: 0.5 }}
-				className={`absolute ${pathname === '/' ? 'bg-navy' : 'bg-current'} h-1 rounded-lg bottom-0 left-0`}
+				className={`absolute bg-current 
+                        
+                        h-1 rounded-lg bottom-0 left-0`}
 			/>
 		</div>
 	);

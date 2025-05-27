@@ -28,7 +28,7 @@ export default function Tours() {
 					<p className="max-w-xl text-justify">
 						Our tour offers wildlife, scenery and historical landmarks. Throughout the
 						tour our well informed guides will provide commentary about the local
-						wildlife, history of the area, castles and other landmarks.
+						wildlife, history of the area, and amazing landmarks.
 					</p>
 				</div>
 			</section>

@@ -27,7 +27,8 @@ const tours = [
 
 export default function Home() {
 	return (
-		<div className="bg-zinc-900">
+		<div className="relative bg-zinc-900">
+                  <div className="absolute left-0 top-0 bg-gradient-to-r from-blue-800 to-blue-900 w-full h-screen" />
 			<Header />
 			<video
 				className="absolute top-0 left-0 w-full h-screen object-cover z-10 opacity-70"
