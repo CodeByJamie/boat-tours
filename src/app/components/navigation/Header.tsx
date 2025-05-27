@@ -2,14 +2,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import HeaderLink from "./HeaderLink";
-import { usePathname } from "next/navigation";
 
 const Header = () => {
 
-      const pathname = usePathname()
-
 	return (
-		<header className={`absolute text-white p-6 w-full z-40`}>
+		<header className={`fixed text-white p-6 w-full z-[99999999999999999999999] backdrop-blur-sm`}>
 			<nav className="max-w-6xl mx-auto flex justify-between items-center">
 				{/* Logo */}
 				<Image

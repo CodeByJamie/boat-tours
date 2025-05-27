@@ -3,6 +3,7 @@ import TourCard from "./components/TourCard";
 import Footer from "./components/navigation/Footer";
 import Link from "next/link";
 import { ChevronDownIcon } from "@heroicons/react/16/solid";
+import OnScreenHelp from "./components/helpButton";
 
 const tours = [
 	{
@@ -51,17 +52,20 @@ export default function Home() {
 						islands, and wildlife.
 					</p>
 					<div className="flex flex-col gap-6">
-						<button className="mt-6 px-8 py-3 bg-navy text-white rounded-full shadow-lg hover:bg-transparent transition duration-300 border-2 border-transparent hover:border-navy w-fit mx-auto">
+						<Link href={'/book'} className="mt-6 px-8 py-3 bg-navy text-white rounded-full shadow-lg hover:bg-transparent transition duration-300 border-2 border-transparent hover:border-navy w-fit mx-auto">
 							Book Your Tour
-						</button>
+						</Link>
 
 						<Link href={"#tours"} className="w-fit mx-auto"><ChevronDownIcon className="size-8 bounce" /></Link>
 					</div>
 				</div>
+                        <div className='absolute -bottom-5 left-0 w-full z-50'>
+					<img src='/bottom_wave_divider.svg' alt='wave bottom' className='w-full' />
+				</div>
 			</section>
 
 			{/* Tours Overview */}
-			<main className="bg-zinc-100 py-12" id="tours">
+			<main className="bg-white py-12" id="tours">
 				<div className="max-w-6xl mx-auto text-center">
 					<h2 className="text-3xl font-semibold mb-8">
 						Our Popular Tours
@@ -89,6 +93,7 @@ export default function Home() {
 			</section>
 
 			<Footer />
+                  <OnScreenHelp />
 		</div>
 	);
 }
