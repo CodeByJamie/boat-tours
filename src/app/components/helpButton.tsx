@@ -11,7 +11,7 @@ const OnScreenHelp = () => {
 	return (
 		<>
 			<div
-				className='flex items-center justify-center fixed right-5 bottom-5 h-16 w-16 rounded-full bg-navy text-white hover:border-navy hover:bg-transparent border-2 border-transparent duration-300 hover:text-navy cursor-pointer z-[99999999999999999999]'
+				className='flex items-center justify-center fixed right-5 bottom-5 max-lg:bottom-7 h-16 w-16 rounded-full bg-navy text-white hover:border-navy hover:bg-transparent border-2 border-transparent duration-300 hover:text-navy cursor-pointer z-[99999999999999999999]'
 				onMouseOver={() => setAssistanceScreen(true)}
 				onMouseLeave={() => setAssistanceScreen(false)}
 				onClick={() => setAssistanceModal(true)}
@@ -25,7 +25,7 @@ const OnScreenHelp = () => {
 				<IoBoat className='size-10' />
 			</div>
 			{assistanceModal && (
-				<div className='fixed bottom-32 right-10 z-[99999999999] border bg-zinc-100 rounded-lg p-5'>
+				<div className='fixed bottom-32 right-10 max-lg:left-10 z-[99999999999] border bg-zinc-100 rounded-lg p-5'>
 					<h2 className='text-3xl text-navy font-semibold'>Need Assistance? </h2>
 					<p className='text-lg text-gray-700'>
 						Please send your enquiry to <strong>info@ballachulishtours.com</strong>

@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 
@@ -16,8 +15,8 @@ const HeaderLink = ({ name }: { name: string }) => {
 			<motion.div
 				initial={false}
 				animate={{ width: hover ? '100%' : '0%' }}
-				transition={{ duration: 0.5 }}
-				className={`absolute bg-current h-1 rounded-lg bottom-0 left-0 cursor-pointer`}
+				transition={{ duration: 0.4 }}
+				className={`absolute bg-current h-1 max-lg:h-0.5 rounded-lg bottom-0 left-0 cursor-pointer`}
 			/>
 		</div>
 	);

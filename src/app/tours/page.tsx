@@ -71,13 +71,13 @@ export default function Tours() {
 				</div>
 
 				{/* Bottom Wave */}
-				<div className='absolute -bottom-10 left-0 w-full z-50 rotate-180'>
+				<div className='absolute -bottom-10 max-md:-bottom-5 left-0 w-full z-50 rotate-180'>
 					<img src='/bottom_wave_divider.svg' alt='wave bottom' className='w-full' />
 				</div>
 			</section>
 
-			<section className='relative h-screen w-screen'>
-				<Image src={'/dolphins.jpeg'} fill alt='school of dolphins' />
+			<section className='relative w-full aspect-[16/9]'>
+				<Image src='/dolphins.jpeg' alt='School of dolphins' fill className='object-cover' priority />
 				<div className='absolute -bottom-5 left-0 w-full z-50'>
 					<img src='/bottom_wave_divider.svg' alt='wave bottom' className='w-full' />
 				</div>
