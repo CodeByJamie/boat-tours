@@ -15,7 +15,7 @@ export default function About() {
 				<Image src='/glen-bg.jpg' alt='Boat on Loch Leven' fill className='opacity-80' priority />
 
 				<div className='absolute bottom-0 left-0 w-full z-50'>
-					<img src='/bottom_wave_divider.svg' alt='wave bottom' className='w-full' />
+					<Image src='/bottom_wave_divider.svg' alt='wave bottom' fill />
 				</div>
 				<div className='absolute inset-0 flex items-center justify-center text-center text-white'>
 					<h1 className='text-4xl md:text-5xl font-bold drop-shadow-xl'>About Us</h1>

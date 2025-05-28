@@ -4,6 +4,7 @@ import Footer from "./components/navigation/Footer";
 import Link from "next/link";
 import { ChevronDownIcon } from "@heroicons/react/16/solid";
 import OnScreenHelp from "./components/helpButton";
+import Image from "next/image";
 
 const tours = [
 	{
@@ -44,7 +45,8 @@ export default function Home() {
 			<section className="relative text-white h-screen flex justify-center items-center text-center fade-in z-10">
 				<div className="px-6 py-8 md:px-12 md:py-16 flex flex-col">
 					<h1 className="text-4xl font-bold drop-shadow-2xl shadow-black">
-						Experience Scotland's Beauty by Boat
+						Experience Scotland&apos;s Beauty by Boat
+
 					</h1>
 					<p className="mt-4 text-xl">
 						Join us for daily boat trips from
@@ -60,7 +62,7 @@ export default function Home() {
 					</div>
 				</div>
                         <div className='absolute -bottom-5 left-0 w-full z-50'>
-					<img src='/bottom_wave_divider.svg' alt='wave bottom' className='w-full' />
+					<Image src='/bottom_wave_divider.svg' alt='wave bottom' fill />
 				</div>
 			</section>
 

@@ -35,7 +35,7 @@ export default function Tours() {
 				<div className='relative z-10 max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-10  items-center'>
 					{/* Left Image */}
 					<div className='w-full h-full flex justify-center items-center'>
-						<img
+						<Image
 							src='/sea-eagle.png'
 							alt='Sea Eagle'
 							className='rounded-3xl shadow-lg max-h-[400px] object-cover'
@@ -72,14 +72,14 @@ export default function Tours() {
 
 				{/* Bottom Wave */}
 				<div className='absolute -bottom-10 max-md:-bottom-5 left-0 w-full z-50 rotate-180'>
-					<img src='/bottom_wave_divider.svg' alt='wave bottom' className='w-full' />
+					<Image src='/bottom_wave_divider.svg' alt='wave bottom' fill />
 				</div>
 			</section>
 
 			<section className='relative w-full aspect-[16/9]'>
 				<Image src='/dolphins.jpeg' alt='School of dolphins' fill className='object-cover' priority />
 				<div className='absolute -bottom-5 left-0 w-full z-50'>
-					<img src='/bottom_wave_divider.svg' alt='wave bottom' className='w-full' />
+					<Image src='/bottom_wave_divider.svg' alt='wave bottom' fill />
 				</div>
 			</section>
 
@@ -87,7 +87,7 @@ export default function Tours() {
 				<div className='relative z-10 max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center py-28'>
 					{/* Left Image */}
 					<div className='w-full h-full flex justify-center items-center'>
-						<img
+						<Image
 							src='/seal.jpg'
 							alt='Sea Eagle'
 							className='rounded-3xl shadow-lg max-h-[400px] object-cover'

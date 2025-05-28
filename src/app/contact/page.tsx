@@ -33,7 +33,7 @@ export default function ContactPage() {
                   <div className="relative w-screen h-[45dvh] bg-zinc-900 ">
                         <Image src={'/banner-loch.jpg'} fill alt='banner' className='opacity-80'/>
                         <div className='absolute -bottom-5 left-0 w-full z-50'>
-					<img src='/bottom_wave_divider.svg' alt='wave bottom' className='w-full' />
+					<Image src='/bottom_wave_divider.svg' alt='wave bottom' fill />
 				</div>
                   </div>
 			<Header />
