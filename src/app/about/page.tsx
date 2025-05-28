@@ -25,7 +25,7 @@ export default function About() {
 			{/* Content Section */}
 			<main className='flex-1 bg-white py-16 px-6 md:px-12'>
 				<div className='max-w-5xl mx-auto text-center'>
-					<h2 className='text-3xl font-semibold text-navy mb-6'>Our Story</h2>
+					<h2 className='text-3xl font-semibold text-[#003480] mb-6'>Our Story</h2>
 					<p className='text-lg text-gray-700 mb-8'>
 						Founded in the heart of the Highlands, our tour company was born from a love
 						of Ballachulish’s rugged landscape, rich history, and incredible wildlife.
@@ -34,7 +34,7 @@ export default function About() {
 						Scotland’s west coast.
 					</p>
 
-					<h2 className='text-3xl font-semibold text-navy mb-6'>Why Choose Us?</h2>
+					<h2 className='text-3xl font-semibold text-[#003480] mb-6'>Why Choose Us?</h2>
 					<p className='text-lg text-gray-700 mb-8'>
 						From family-friendly trips to wildlife watching and scenic cruises, we tailor
 						each experience to delight our guests. Our friendly guides share fascinating
@@ -50,7 +50,7 @@ export default function About() {
 						className='rounded-xl shadow-lg mx-auto mb-8'
 					/>
 
-					<h2 className='text-3xl font-semibold text-navy mb-6'>Meet the Team</h2>
+					<h2 className='text-3xl font-semibold text-[#003480] mb-6'>Meet the Team</h2>
 					<p className='text-lg text-gray-700'>
 						Our team is made up of locals who love sharing their backyard with the world.
 						With extensive boating experience and a deep respect for the environment, we
@@ -60,7 +60,7 @@ export default function About() {
 			</main>
 
 			<Footer />
-                  <OnScreenHelp />
+			<OnScreenHelp />
 		</div>
 	);
 }

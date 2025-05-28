@@ -25,21 +25,21 @@ const Header = () => {
 				{/* Book Now Button */}
 				<Link
 					href='/book'
-					className='bg-navy text-white px-6 py-3 rounded-full hover:bg-transparent transition duration-300 border-2 border-transparent hover:border-navy max-lg:hidden'
+					className={`bg-[#003480] text-white px-6 py-3 rounded-full hover:bg-transparent transition duration-300 border-2 border-transparent hover:border-navy max-lg:hidden`}
 				>
 					Book Now
 				</Link>
 
 				<div className='relative lg:hidden'>
 					<Bars3Icon
-						className='size-8 z-[99999999999999999] cursor-pointer hover:text-navy duration-500 '
+						className='size-8 z-[99999999999999999] cursor-pointer hover:text-[#003480] duration-500 '
 						onClick={() => setDropDown(!dropdown)}
 					/>
 
 					<AnimatePresence>
 						{dropdown && (
 							<motion.div
-								className='absolute -left-7 flex flex-col gap-6 items-center mt-3 z-[999] bg-navy/60 p-2 rounded-xl'
+								className='absolute -left-7 flex flex-col gap-6 items-center mt-3 z-[999] bg-[#003480]/60 p-2 rounded-xl'
 								initial={{ x: 30, opacity: 0 }}
 								animate={{ x: -10, opacity: 1 }}
 								transition={{ duration: 0.5 }}

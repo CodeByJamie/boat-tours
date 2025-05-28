@@ -44,13 +44,13 @@ export default function Tours() {
 
 					{/* Text Content */}
 					<div>
-						<h2 className='text-3xl font-bold text-navy mb-4 flex items-center gap-2'>
-							<FaCompass className='text-navy' />
+						<h2 className='text-3xl font-bold text-[#003480] mb-4 flex items-center gap-2'>
+							<FaCompass className='text-[#003480]' />
 							Our Tour
 						</h2>
 						<hr className='border border-zinc-300 mb-6' />
 
-						<h3 className='text-navy text-xl font-bold mb-2'>
+						<h3 className='text-[#003480] text-xl font-bold mb-2'>
 							Our Tour Offers Something for Everyone...
 						</h3>
 						<p className='mb-6 text-gray-700'>
@@ -60,7 +60,7 @@ export default function Tours() {
 							and other landmarks.
 						</p>
 
-						<h3 className='text-navy text-xl font-bold mb-2'>
+						<h3 className='text-[#003480] text-xl font-bold mb-2'>
 							Home to Great Views Across The Highland
 						</h3>
 						<p className='text-gray-700'>
@@ -96,13 +96,13 @@ export default function Tours() {
 
 					{/* Text Content */}
 					<div>
-						<h2 className='text-3xl font-bold text-navy mb-4 flex items-center gap-2'>
-							<IoLeaf className='text-navy' />
+						<h2 className='text-3xl font-bold text-[#003480] mb-4 flex items-center gap-2'>
+							<IoLeaf className='text-[#003480]' />
 							Wildlife You May See...
 						</h2>
 						<hr className='border border-zinc-300 mb-6' />
 
-						<h3 className='text-navy text-xl font-bold mb-2'>Marine WildLife</h3>
+						<h3 className='text-[#003480] text-xl font-bold mb-2'>Marine WildLife</h3>
 						<p className='mb-6 text-gray-700'>
 							The waters around Ballachulish are rich in wildlife. You may spot
 							seals, otters, and seabirds like guillemots and shearwaters.
@@ -111,7 +111,9 @@ export default function Tours() {
 							white-tailed eagles soaring above the loch.
 						</p>
 
-						<h3 className='text-navy text-xl font-bold mb-2'>Terrestrial Wildlife</h3>
+						<h3 className='text-[#003480] text-xl font-bold mb-2'>
+							Terrestrial Wildlife
+						</h3>
 						<p className='mb-6 text-gray-700'>
 							The hills and woodlands near Ballachulish are home to red deer,
 							pine martens, and red squirrels. Golden eagles can be seen soaring
